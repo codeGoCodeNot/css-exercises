@@ -1,0 +1,17 @@
+* {
+  background-color: white;
+}
+
+button {
+  font: 28px "Helvetica", "Times New Roman", sans serif;
+  padding: 10px;
+}
+
+.click {
+  background-color: black;
+  color: white;
+}
+
+#unclick {
+  background-color: yellow;
+}
