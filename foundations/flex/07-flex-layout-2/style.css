@@ -37,13 +37,14 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 .header {
   display: flex;
   align-items: center;
   font-size: 32px;
-  font-weight: 900px;
+  font-weight: 900;
   padding: 0 16px;
 }
 
@@ -59,6 +60,9 @@ body {
   flex: 1;
   flex-wrap: wrap;
   gap: 16px;
+  margin-left: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .sidebar {
@@ -80,6 +84,7 @@ ul {
 a {
   text-decoration: none;
   color: white;
+  font-size: 24px;
 }
 
 li {
